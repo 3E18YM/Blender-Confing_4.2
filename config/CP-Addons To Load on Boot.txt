@@ -1,0 +1,9 @@
+viewport_pie_menus
+align_tools
+auto_mirror
+blenderkit
+pro_align_tools
+quicksnap-main
+sketchfab-plugin-1-6-1
+Pivot_Transform
+MACHIN3tools

@@ -1,0 +1,17 @@
+[Bookmarks]
+C:\Users\user\OneDrive\Ctinfo\WorkSpace\CSBC\USV_ControlCase\
+C:\Users\user\OneDrive\CG\Plug-ins&Add-on\
+C:\Users\user\OneDrive\Ctinfo\WorkSpace\
+C:\Users\user\OneDrive\CG\Blender\Assets\
+C:\Users\user\OneDrive\CG\Library\model\
+[Recent]
+C:\Users\user\OneDrive\Ctinfo\WorkSpace\CSBC\USV_ControlCase\Assets\models\
+C:\Users\user\OneDrive\Ctinfo\WorkSpace\CSBC\USV_ControlCase\
+C:\Users\user\OneDrive\Ctinfo\WorkSpace\CSBC\USV_Sim\Blender\
+C:\Users\user\OneDrive\CG\Plug-ins&Add-on\Blender\View\
+C:\Users\user\OneDrive\CG\Blender\Assets\
+C:\Users\user\OneDrive\CG\Plug-ins&Add-on\Blender\Modeling\RetopoFlow v4.0.0 Beta 03\
+C:\Users\user\Desktop\
+C:\Users\user\OneDrive\CG\Plug-ins&Add-on\Blender\Modeling\Quad Remesher V1.3 Win\
+C:\Users\user\OneDrive\Ctinfo\WorkSpace\CSBC\
+C:\Users\user\OneDrive\CG\Plug-ins&Add-on\Blender\Modeling\Quad Remesher 1.22\

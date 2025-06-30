@@ -1,0 +1,107 @@
+{
+    "Vertex Paint": {
+        "brush.scale_size": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFT_BRACKET",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "scalar": 0.8999999761581421
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHT_BRACKET",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "scalar": 1.1111111640930176
+                }
+            }
+        ],
+        "brush.stencil_control": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 1
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 0,
+                    "texmode": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 1,
+                    "texmode": 1
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2,
+                    "texmode": 1
+                }
+            }
+        ]
+    }
+}

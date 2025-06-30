@@ -1,0 +1,21 @@
+{
+    "Object Mode": {
+        "wm.call_menu_pie_drag_only": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "PIE_MT_select_object_name_relation",
+                    "fallback_operator": "",
+                    "fallback_op_kwargs": "{}",
+                    "on_drag": 0
+                }
+            }
+        ]
+    }
+}

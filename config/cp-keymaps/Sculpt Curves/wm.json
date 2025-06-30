@@ -1,0 +1,50 @@
+{
+    "Sculpt Curves": {
+        "wm.radial_control": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.curves_sculpt.brush.size",
+                    "data_path_secondary": "tool_settings.unified_paint_settings.size",
+                    "use_secondary": "tool_settings.unified_paint_settings.use_unified_size",
+                    "rotation_path": "tool_settings.curves_sculpt.brush.texture_slot.angle",
+                    "color_path": "tool_settings.curves_sculpt.brush.cursor_color_add",
+                    "fill_color_path": "",
+                    "fill_color_override_path": "",
+                    "fill_color_override_test_path": "",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.curves_sculpt.brush",
+                    "secondary_tex": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.curves_sculpt.brush.strength",
+                    "data_path_secondary": "tool_settings.unified_paint_settings.strength",
+                    "use_secondary": "tool_settings.unified_paint_settings.use_unified_strength",
+                    "rotation_path": "tool_settings.curves_sculpt.brush.texture_slot.angle",
+                    "color_path": "tool_settings.curves_sculpt.brush.cursor_color_add",
+                    "fill_color_path": "",
+                    "fill_color_override_path": "",
+                    "fill_color_override_test_path": "",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.curves_sculpt.brush",
+                    "secondary_tex": 0
+                }
+            }
+        ]
+    }
+}

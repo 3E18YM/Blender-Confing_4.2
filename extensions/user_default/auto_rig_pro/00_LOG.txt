@@ -1,0 +1,7 @@
+[3.75.11]
+
+New/improved:
+Smart: AI: Guess Fingers support for 4 fingers
+
+Fixed:
+Smart: AI: Support for ACES color profile

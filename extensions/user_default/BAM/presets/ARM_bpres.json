@@ -1,0 +1,106 @@
+{
+    "suffixes": {
+        "basecolor": [
+            "_basecolor",
+            " _albedo"
+        ],
+        "normal": [
+            "_normal",
+            " _nrm"
+        ],
+        "roughness": [
+            "_arm"
+        ],
+        "metallic": [
+            "_arm"
+        ],
+        "opacity": [
+            "_opacity",
+            " _alpha"
+        ],
+        "subsurface": [
+            "_subsurface"
+        ],
+        "specular": [
+            "_specular_ior"
+        ],
+        "specular_tint": [
+            "_specular_tint"
+        ],
+        "anisotropic": [
+            "_anisotropic"
+        ],
+        "sheen": [
+            "_sheen"
+        ],
+        "sheen_tint": [
+            "_sheen_tint"
+        ],
+        "clearcoat": [
+            "_clearcoat"
+        ],
+        "clearcoat_roughness": [
+            "_clearcoat_roughness"
+        ],
+        "ior": [
+            "_ior"
+        ],
+        "transmission": [
+            "_transmission"
+        ],
+        "displacement": [
+            "_displacement"
+        ],
+        "emission": [
+            "_emissive"
+        ],
+        "ao": [
+            "_arm"
+        ]
+    },
+    "channels": {
+        "basecolor": "RGB",
+        "normal": "RGB",
+        "roughness": "G",
+        "metallic": "B",
+        "opacity": "RGB",
+        "subsurface": "RGB",
+        "specular": "RGB",
+        "specular_tint": "RGB",
+        "anisotropic": "RGB",
+        "sheen": "RGB",
+        "sheen_tint": "RGB",
+        "clearcoat": "RGB",
+        "clearcoat_roughness": "RGB",
+        "ior": "RGB",
+        "transmission": "RGB",
+        "displacement": "RGB",
+        "emission": "RGB",
+        "ao": "R"
+    },
+    "colorspaces": {
+        "basecolor": "sRGB",
+        "normal": "Non-Color",
+        "roughness": "Non-Color",
+        "metallic": "Non-Color",
+        "opacity": "Non-Color",
+        "subsurface": "sRGB",
+        "specular": "Non-Color",
+        "specular_tint": "Non-Color",
+        "anisotropic": "Non-Color",
+        "sheen": "Non-Color",
+        "sheen_tint": "Non-Color",
+        "clearcoat": "Non-Color",
+        "clearcoat_roughness": "Non-Color",
+        "ior": "Non-Color",
+        "transmission": "Non-Color",
+        "displacement": "Non-Color",
+        "emission": "sRGB",
+        "ao": "Non-Color"
+    },
+    "additional_settings": {
+        "invert_normal_map_green_channel": false,
+        "blend_mode": "HASHED",
+        "displacement_mode": "BOTH"
+    }
+}

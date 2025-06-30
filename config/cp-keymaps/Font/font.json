@@ -1,0 +1,578 @@
+{
+    "Font": {
+        "font.style_toggle": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "B",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "style": 1
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "I",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "style": 2
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "U",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "style": 4
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "P",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "style": 16
+                }
+            }
+        ],
+        "font.delete": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "DEL",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 5
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "DEL",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 2
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "BACK_SPACE",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 6
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "BACK_SPACE",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 6
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "BACK_SPACE",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 3
+                }
+            }
+        ],
+        "font.move": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "HOME",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "type": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "END",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "type": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 4
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 5
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 6
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 7
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "UP_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 8
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "DOWN_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 9
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "PAGE_UP",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 10
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "PAGE_DOWN",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 11
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "HOME",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 2
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "END",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 3
+                }
+            }
+        ],
+        "font.move_select": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "HOME",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "type": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "END",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "type": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 4
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 5
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 6
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 7
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "UP_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 8
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "DOWN_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 9
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "PAGE_UP",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 10
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "PAGE_DOWN",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 11
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "HOME",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 2
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "END",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "type": 3
+                }
+            }
+        ],
+        "font.change_spacing": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "delta": -1.0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "delta": 1.0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "delta": -0.10000000149011612
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHT_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "delta": 0.10000000149011612
+                }
+            }
+        ],
+        "font.change_character": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "UP_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "delta": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "DOWN_ARROW",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "delta": -1
+                }
+            }
+        ],
+        "font.select_all": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "font.text_copy": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "C",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "font.text_cut": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "font.text_paste": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "V",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {}
+            }
+        ],
+        "font.line_break": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RET",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "NUMPAD_ENTER",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {}
+            }
+        ],
+        "font.text_insert": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": true,
+                "type": "TEXTINPUT",
+                "value": "ANY",
+                "repeat": true,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "BACK_SPACE",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "accent": 1
+                }
+            }
+        ]
+    }
+}

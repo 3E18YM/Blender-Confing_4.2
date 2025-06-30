@@ -1,0 +1,207 @@
+{
+    "Sculpt": {
+        "sculpt.brush_stroke": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2
+                }
+            }
+        ],
+        "sculpt.expand": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "target": 0,
+                    "falloff_type": 0,
+                    "invert": 0,
+                    "use_mask_preserve": 1,
+                    "use_auto_mask": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "target": 0,
+                    "falloff_type": 3,
+                    "invert": 0,
+                    "use_mask_preserve": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "W",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "target": 1,
+                    "falloff_type": 0,
+                    "invert": 0,
+                    "use_mask_preserve": 0,
+                    "use_modify_active": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "W",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "target": 1,
+                    "falloff_type": 6,
+                    "invert": 0,
+                    "use_mask_preserve": 0,
+                    "use_modify_active": 1
+                }
+            }
+        ],
+        "sculpt.face_set_change_visibility": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2
+                }
+            }
+        ],
+        "sculpt.face_set_edit": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "W",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "W",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 1
+                }
+            }
+        ],
+        "sculpt.dyntopo_detail_size_edit": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "R",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "sculpt.detail_flood_fill": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "R",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "sculpt.sample_color": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "sculpt.set_pivot_position": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 4
+                }
+            }
+        ]
+    }
+}

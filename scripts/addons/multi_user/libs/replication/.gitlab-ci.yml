@@ -1,0 +1,16 @@
+image: python:latest
+
+publish:
+  script:
+    - pip install -U twine
+    - python setup.py sdist bdist_wheel
+    - twine check dist/*
+    - twine upload dist/* -u $TWINE_USERNAME -p $TWINE_PASSWORD --skip-existing --non-interactive
+  artifacts:
+    paths:
+      - dist/*.whl
+  only:
+    refs:
+      - master
+      - develop
+      - remove-services

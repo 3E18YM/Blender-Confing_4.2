@@ -1,0 +1,49 @@
+[1.26.46]
+
+New/improved:
+New "Parent to Main Bones" setting for orphan bones, to parent them to main bones instead of other orphan bones when possible. Helps to resolve cases of complex skeletons, where orphan bones lose their parents
+"Parent to Main Bones" is now disabled by default
+Added "Auto IK Roll" setting for arms and legs, disabled by default
+Each fingers phalange can now be manually set, useful in case phalanges are not direct child of each other
+Improved Arm and Fingers Up Axis autodetection by evaluating the axes in a virtual T-pose
+Added "Up Axis" setting for arm bones (was only for hand and fingers before)
+Improved the straight arms/legs correction (to comply with IK constraints), the angle is now evaluated in the bone's Z axis space instead of global space
+Check for update: Now shows a differential log, comparing the log of the new available version versus the current old version
+New UE5 preset
+Multiple animations baking support
+The c_root_master controller shape now tries to fit the global character scale better
+Changed the default presets path from C:/Quick Rig Presets/ to /Quick Rig Presets/ to be OS agnostic
+Added Global or Local space retargetting for orphan bones animated locations (was always Local before)
+Blender 4.0 support. Backward-compatible with older versions.
+Interface: moved the "Enable Weights Override" checkbox near the bone names entries for arms and spine limbs
+New "UE5 Manny (2 twists)" preset, works best when exporting back the rig to UE
+New "Foot Dir Axis" setting for Leg limbs, to determine the foot axis direction in case no toe bone is set
+Added a "Fuzzy Match" optional setting when importing built-in presets. It attempts to match the bone names from the preset that are different from the actual skeleton. Warning, prone to error.
+New "Force Pelvis Up" setting for spine limbs. Useful when the pelvis bone is not straight up, typically for humanoid characters. Updated the built-in presets with this setting too.
+Replaced the "Layer" setting with "Collection" for Blender 4+ versions
+New Genesis 9 preset, renamed other presets more appropriately
+New UE MetaHuman preset
+The Quick Rig preset directory is now set in the Documents folder by default
+Toes are now supported for Leg limbs
+New "Mirror" feature to automatically create a mirrored limb (only works if bone names are ending/starting with '_l', '.l', '_left' and similar), or replace existing mirrored limb
+New "Up" and "Down" buttons to sort the limbs list manually
+New Tail limbs support
+Improved the "Mirror" feature, supports a wider syntax for left and right identifier, and sort the mirror limb after the original one in the list
+
+Fixed:
+Error when versioning the files, leading to missing code patches in 1.26.32-33
+Disabled "Freeze Armature", not necessary anymore in latest versions and could lead to issues
+Compatibility with Blender 4.1+, import presets from file
+Display an explicit error when trying to enable animation baking while Auto-Rig Pro Light version is installed
+Compatibility with Auto-Rig Pro 3.68.21+
+Compatibility with Auto-Rig Pro 3.68.67+ when remapping animation
+Error handling, warning message if twist bones inputs are missing
+Orphan bones not parented correctly when Manual Phalanges were enabled
+Compatibility with Blender 4.0 alpha
+Version checker updated, Auto-Rig Pro should be at least to 3.66.25 version to work properly with Quick Rig
+Check for update: missing functions
+Backward-compatibility issue related to meshes data when reverting rigs to skeleton
+Debug mode was enabled
+Overrides for Arm limbs were throwing an error when manual phalanges were enabled
+Error with missing toes
+Check for Update broken in Blender 4.2+

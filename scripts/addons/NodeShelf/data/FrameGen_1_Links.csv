@@ -1,0 +1,45 @@
+From Socket Name,From Socket Node,To Socket Name,To Socket Node
+Curve,Mesh to Curve.001,Curve,Curve to Mesh.001
+Mesh,Curve to Mesh.001,Mesh,Extrude Mesh.001
+Normal,法線.001,Vector,分離 XYZ.002
+Mesh,Curve to Mesh,Mesh,Extrude Mesh
+Curve,Subdivide Curve,Curve,Curve to Mesh
+Vector,向量.001,Offset,Extrude Mesh
+Mesh,Extrude Mesh,Mesh,分成三角形
+Mesh,分成三角形,Mesh,Mesh to Curve.001
+X,分離 XYZ.002,X,合成 XYZ
+Vector,合成 XYZ,Offset,Extrude Mesh.001
+曲線,群組輸入,Curve,Subdivide Curve
+Mesh,Extrude Mesh.001,網格,群組輸出
+Z-height,群組輸入,Offset Scale,Extrude Mesh
+Amount,群組輸入,Cuts,Subdivide Curve
+From Socket Name,From Socket Node,To Socket Name,To Socket Node
+Curve,Mesh to Curve.001,Curve,Curve to Mesh.001
+Mesh,Curve to Mesh.001,Mesh,Extrude Mesh.001
+Normal,法線.001,Vector,分離 XYZ.002
+Mesh,Curve to Mesh,Mesh,Extrude Mesh
+Curve,Subdivide Curve,Curve,Curve to Mesh
+Vector,向量.001,Offset,Extrude Mesh
+Mesh,Extrude Mesh,Mesh,分成三角形
+Mesh,分成三角形,Mesh,Mesh to Curve.001
+X,分離 XYZ.002,X,合成 XYZ
+Vector,合成 XYZ,Offset,Extrude Mesh.001
+曲線,群組輸入,Curve,Subdivide Curve
+Mesh,Extrude Mesh.001,網格,群組輸出
+Z-height,群組輸入,Offset Scale,Extrude Mesh
+Amount,群組輸入,Cuts,Subdivide Curve
+From Socket Name,From Socket Node,To Socket Name,To Socket Node
+Curve,Mesh to Curve.001,Curve,Curve to Mesh.001
+Mesh,Curve to Mesh.001,Mesh,Extrude Mesh.001
+Normal,法線.001,Vector,分離 XYZ.002
+Mesh,Curve to Mesh,Mesh,Extrude Mesh
+Curve,Subdivide Curve,Curve,Curve to Mesh
+Vector,向量.001,Offset,Extrude Mesh
+Mesh,Extrude Mesh,Mesh,分成三角形
+Mesh,分成三角形,Mesh,Mesh to Curve.001
+X,分離 XYZ.002,X,合成 XYZ
+Vector,合成 XYZ,Offset,Extrude Mesh.001
+曲線,群組輸入,Curve,Subdivide Curve
+Mesh,Extrude Mesh.001,網格,群組輸出
+Z-height,群組輸入,Offset Scale,Extrude Mesh
+Amount,群組輸入,Cuts,Subdivide Curve

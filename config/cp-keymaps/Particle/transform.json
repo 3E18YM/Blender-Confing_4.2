@@ -1,0 +1,50 @@
+{
+    "Particle": {
+        "transform.translate": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "G",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "CLICK_DRAG",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "transform.rotate": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "R",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "transform.resize": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "S",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+id = "ARP_rig_tools"
+version = "3.74.37"
+name = "Auto-Rig Pro Tools"
+tagline = "Enables the Auto-Rig Pro tools (operators, snap IK-FK...) Do not install it if the Auto-Rig Pro addon is already installed."
+maintainer = "Artell <elartblender@gmail.com>"
+type = "add-on"
+ website = "http://lucky3d.fr/auto-rig-pro/doc/bug_report.html"
+tags = ["Rigging", "Animation"]
+
+blender_version_min = "2.8.0"
+
+# No upper version breakage for now
+# blender_version_max = "5.1.0"
+
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+ copyright = [
+   "2016-2024 Lucas Veber",
+ ]

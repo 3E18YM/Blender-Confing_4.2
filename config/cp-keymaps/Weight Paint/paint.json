@@ -1,0 +1,114 @@
+{
+    "Weight Paint": {
+        "paint.weight_paint": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2
+                }
+            }
+        ],
+        "paint.weight_sample": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "paint.weight_sample_group": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "paint.weight_gradient": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "type": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "type": 0
+                }
+            }
+        ],
+        "paint.weight_set": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "paint.face_vert_reveal": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "Particle": {
+        "wm.radial_control": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.particle_edit.brush.size"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.particle_edit.brush.strength"
+                }
+            }
+        ],
+        "wm.context_set_enum": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "ONE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.particle_edit.select_mode",
+                    "value": "PATH"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "TWO",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.particle_edit.select_mode",
+                    "value": "POINT"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "THREE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.particle_edit.select_mode",
+                    "value": "TIP"
+                }
+            }
+        ],
+        "wm.call_menu_pie": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "O",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_proportional_editing_falloff_pie"
+                }
+            }
+        ],
+        "wm.context_toggle": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "O",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.use_proportional_edit"
+                }
+            }
+        ],
+        "wm.call_menu": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_particle_context_menu"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "APP",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_particle_context_menu"
+                }
+            }
+        ]
+    }
+}

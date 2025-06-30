@@ -1,0 +1,113 @@
+{
+    "suffixes": {
+        "basecolor": [
+            "_basecolor",
+            " _albedo",
+            "BaseColor"
+        ],
+        "normal": [
+            "_normal",
+            " _nrm",
+            "Normal"
+        ],
+        "roughness": [
+            "_roughness",
+            "Roughness"
+        ],
+        "metallic": [
+            "_metallic",
+            " _metalness",
+            "Metallic"
+        ],
+        "opacity": [
+            "_opacity",
+            "Opcaity"
+        ],
+        "subsurface": [
+            "_subsurface"
+        ],
+        "specular": [
+            "_specular_ior"
+        ],
+        "specular_tint": [
+            "_specular"
+        ],
+        "anisotropic": [
+            "_anisotropic"
+        ],
+        "sheen": [
+            "_sheen"
+        ],
+        "sheen_tint": [
+            "_sheen_tint"
+        ],
+        "clearcoat": [
+            "_clearcoat"
+        ],
+        "clearcoat_roughness": [
+            "_clearcoat_roughness"
+        ],
+        "ior": [
+            "_ior"
+        ],
+        "transmission": [
+            "_transmission"
+        ],
+        "displacement": [
+            "_displacement"
+        ],
+        "emission": [
+            "_emissive",
+            " Emissive"
+        ],
+        "ao": [
+            "_ao",
+            " _ambientocclusion"
+        ]
+    },
+    "channels": {
+        "basecolor": "RGB",
+        "normal": "RGB",
+        "roughness": "RGB",
+        "metallic": "RGB",
+        "opacity": "RGB",
+        "subsurface": "RGB",
+        "specular": "RGB",
+        "specular_tint": "RGB",
+        "anisotropic": "RGB",
+        "sheen": "RGB",
+        "sheen_tint": "RGB",
+        "clearcoat": "RGB",
+        "clearcoat_roughness": "RGB",
+        "ior": "RGB",
+        "transmission": "RGB",
+        "displacement": "RGB",
+        "emission": "RGB",
+        "ao": "RGB"
+    },
+    "colorspaces": {
+        "basecolor": "sRGB",
+        "normal": "Non-Color",
+        "roughness": "Non-Color",
+        "metallic": "Non-Color",
+        "opacity": "Non-Color",
+        "subsurface": "sRGB",
+        "specular": "Non-Color",
+        "specular_tint": "Non-Color",
+        "anisotropic": "Non-Color",
+        "sheen": "Non-Color",
+        "sheen_tint": "Non-Color",
+        "clearcoat": "Non-Color",
+        "clearcoat_roughness": "Non-Color",
+        "ior": "Non-Color",
+        "transmission": "Non-Color",
+        "displacement": "Non-Color",
+        "emission": "sRGB",
+        "ao": "sRGB"
+    },
+    "additional_settings": {
+        "invert_normal_map_green_channel": false,
+        "blend_mode": "HASHED",
+        "displacement_mode": "BOTH"
+    }
+}

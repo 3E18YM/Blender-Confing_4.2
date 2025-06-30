@@ -1,0 +1,30 @@
+{
+    "Sculpt Curves": {
+        "brush.scale_size": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFT_BRACKET",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "scalar": 0.8999999761581421
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHT_BRACKET",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "scalar": 1.1111111640930176
+                }
+            }
+        ]
+    }
+}

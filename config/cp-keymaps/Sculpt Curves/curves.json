@@ -1,0 +1,80 @@
+{
+    "Sculpt Curves": {
+        "curves.set_selection_domain": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "ONE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "domain": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "TWO",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "domain": 4
+                }
+            }
+        ],
+        "curves.select_all": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 2
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "I",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 3
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "DOUBLE_CLICK",
+                "repeat": false,
+                "properties": {
+                    "action": 2
+                }
+            }
+        ]
+    }
+}

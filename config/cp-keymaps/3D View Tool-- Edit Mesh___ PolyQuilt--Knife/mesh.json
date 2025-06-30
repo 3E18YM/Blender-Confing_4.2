@@ -1,0 +1,54 @@
+{
+    "3D View Tool: Edit Mesh, PolyQuilt:Knife": {
+        "mesh.poly_quilt": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "tool_mode": 10
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "tool_mode": 9
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "tool_mode": 6
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "tool_mode": 8
+                }
+            }
+        ]
+    }
+}

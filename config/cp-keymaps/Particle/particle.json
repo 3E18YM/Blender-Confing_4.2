@@ -1,0 +1,210 @@
+{
+    "Particle": {
+        "particle.select_all": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 2
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "I",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 3
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "DOUBLE_CLICK",
+                "repeat": false,
+                "properties": {
+                    "action": 2
+                }
+            }
+        ],
+        "particle.select_more": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "NUMPAD_PLUS",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {}
+            }
+        ],
+        "particle.select_less": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "NUMPAD_MINUS",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {}
+            }
+        ],
+        "particle.select_linked_pick": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "L",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "deselect": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "L",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "deselect": 1
+                }
+            }
+        ],
+        "particle.select_linked": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "L",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "particle.delete": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "DEL",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "particle.reveal": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "particle.hide": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "unselected": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "unselected": 1
+                }
+            }
+        ],
+        "particle.brush_edit": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "LEFTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "particle.weight_set": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "K",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "last_check": "2025-05-26 13:33:42.999834",
+    "backup_date": "January-23-2025",
+    "update_ready": true,
+    "ignore": false,
+    "just_restored": false,
+    "just_updated": false,
+    "version_text": {
+        "link": "https://api.github.com/repos/JulienHeijmans/quicksnap/zipball/1_4_8",
+        "version": [
+            1,
+            4,
+            8
+        ]
+    }
+}

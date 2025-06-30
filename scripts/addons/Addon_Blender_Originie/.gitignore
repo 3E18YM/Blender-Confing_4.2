@@ -1,0 +1,6 @@
+__pycache__
+*.blend1
+*.blend3
+*.blend2
+bookmarks.txt
+.idea/*

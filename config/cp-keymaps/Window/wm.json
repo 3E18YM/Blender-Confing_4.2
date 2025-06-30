@@ -1,0 +1,35 @@
+{
+    "Window": {
+        "wm.call_menu_pie_drag_only": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "S",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "PIE_MT_file",
+                    "fallback_operator": "wm.save_mainfile",
+                    "fallback_op_kwargs": "{}",
+                    "on_drag": 1
+                }
+            }
+        ],
+        "wm.context_toggle": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "FOUR",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "data_path": "object.show_wire"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+# Originie: Teleport the pivot with magic, a feature packed pivot master add-on
+
+Originie is an add-on for manipulating the pivot's (the origin in Blender lingo) position with ease. It comes with bunch of tools that would let you move the pivot around as you need. 
+
+## Features
+
+- Edit the pivot with numerical entry
+- Interactive Bounding Box mode (sides / corners)
+- Visually edit the pivot's position
+- Visual Pivot editing with Blender's native functionality
+- Position to the bounding box of the object (Sides, Points, Edges with percentages)
+- Bottom and Top positioning, great for characters and such.
+- Move the pivot to the parent's location.
+- Relocate the pivots of all selected object's to the active object's location.
+- Move the active object's pivot to the selected object(s) position.
+- Position the pivot(s) to the geometric center.
+- Move the pivot(s) to the cursor.
+- Teleport to the World origin.
+- Randomize the pivot's location.
+- Use the ruler as a guide to glide the pivot across.
+- Fake animatable pivot (Cursor, Active, Selected, World) for editing without modifying the original pivot.
+- Pie like menu for accessing all functions easily.
+- Object and Edit mode support.
+- Supports most object types.
+- Predefined shortcuts, `INSERT` for editing pivot visually (like in Maya), `SEMI COLON` for the pie menu.
+- Unity to fit objects into one Blender unit size
+- Drop to ground
+
+## Plans
+
+More features will be added since I intent to improve this add-on as much as possible. However the 2.81 version of Blender is bringing up bunch of new features and additions to the origin (or the pivot in other applications), that is why more advanced pivot editing might be implemented after seeing the final version of pivot editing in 2.81
+
+
+## v1.1
+- [NEW] Interactive Bounding Box mode (sides / corners)
+- [FIX] Refined the pivot editing experience
+- [FIX] Support links and extra info for the add-on tab
+
+## v1.2
+- [NEW] Drop to ground
+- [NEW] Local offset for numerical pivot input
+
+## v1.3
+- [BETA] New Edit Pivot Mode for 2.81 and up
+- [NEW] Local offset for numerical pivot input
+
+## v1.3.1
+- [NEW] New `Unitfy` (with rotation reset) functionality to fit objects into one unit cube. 
+
+## v1.3.2
+- [NEW] Some of the operators now support multiple selection
+- [FIX] Edge cases with the interactive mode
+
+
+
+## Installation
+
+Download the zip file and use `Install` from the Add-on tab. Or just unzip the downloaded file to the scripts/addon folder under Blender's user directory
+
+## Usage
+
+### Invoking
+
+The add-on comes with couple predefined shortcuts. You can use `;` in the 3d viewport the bring up the Originie's menu. 
+
+
+### General Usage
+
+Almost all the tools in this add-on have additional options. Once you run an operation, you will either see a pop-up window prior to running the operation or additional tool settings. Watch your tool settings panel for further pivot manipulation.
+
+
+### Interactive Bounding Box Mode
+
+Invoke the command from the pie menu while an object is active. Move your mouse around for the best location on the bounding box. You can pick the sides or the corners with the LEFT CLICK. Once you are happy with the final location, use ENTER to commit or ESC to cancel the operation.
+
+### Visual Pivot Editing
+
+You can use `Insert` for quickly going into the visual pivot editing mode or just invoke `Edit Pivot` from the menu. 
+This mode supports orthographic views at the moment however more advanced editing like editing perspective viewport, snapping to components etc might be implemented, all of these depends on the 2.81 release of Blender.
+
+
+### Ruler as a guide for the pivot
+
+First draw a ruler with starting and then end point, then choose your object and invoke `To Ruler`
+
+### Fake Pivot
+
+The fake pivot function creates a fake pivot via an empty object that you can use as a secondary non-binding pivot. You do not have to change your object's main pivot if you need a handy pivot. There is going to be a new empty object in your object list called `.PIVOT_(OBJECT_NAME)` once you invoke the operation. You can position or animate that pivot for further advanced usages. The menu for fake pivot will turn to `Fake Apply` once your object has a fake pivot. Use this function to finalize the it.

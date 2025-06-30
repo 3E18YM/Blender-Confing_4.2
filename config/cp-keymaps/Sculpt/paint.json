@@ -1,0 +1,248 @@
+{
+    "Sculpt": {
+        "paint.hide_show_all": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "H",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "action": 1
+                }
+            }
+        ],
+        "paint.visibility_filter": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "NUMPAD_4",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "action": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "NUMPAD_6",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "action": 0
+                }
+            }
+        ],
+        "paint.mask_flood_fill": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "M",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2,
+                    "value": 0.0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "I",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 5
+                }
+            }
+        ],
+        "paint.mask_box_gesture": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "B",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "mode": 2,
+                    "value": 0.0
+                }
+            }
+        ],
+        "paint.brush_colors_flip": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "X",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "paint.brush_select": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "V",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "S",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 2
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "P",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 3
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "I",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 4
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "G",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 5
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "T",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 10
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "C",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 18
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "C",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 16
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "K",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 13
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "M",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "sculpt_tool": 19,
+                    "toggle": 1,
+                    "create_missing": 1
+                }
+            }
+        ],
+        "paint.mask_lasso_gesture": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "value": 1.0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "value": 0.0
+                }
+            }
+        ]
+    }
+}

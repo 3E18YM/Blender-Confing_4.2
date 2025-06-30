@@ -1,0 +1,160 @@
+{
+    "Image Paint": {
+        "wm.radial_control": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.image_paint.brush.size",
+                    "data_path_secondary": "tool_settings.unified_paint_settings.size",
+                    "use_secondary": "tool_settings.unified_paint_settings.use_unified_size",
+                    "rotation_path": "tool_settings.image_paint.brush.mask_texture_slot.angle",
+                    "color_path": "tool_settings.image_paint.brush.cursor_color_add",
+                    "fill_color_path": "tool_settings.image_paint.brush.color",
+                    "fill_color_override_path": "tool_settings.unified_paint_settings.color",
+                    "fill_color_override_test_path": "tool_settings.unified_paint_settings.use_unified_color",
+                    "zoom_path": "space_data.zoom",
+                    "image_id": "tool_settings.image_paint.brush",
+                    "secondary_tex": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.image_paint.brush.strength",
+                    "data_path_secondary": "tool_settings.unified_paint_settings.strength",
+                    "use_secondary": "tool_settings.unified_paint_settings.use_unified_strength",
+                    "rotation_path": "tool_settings.image_paint.brush.mask_texture_slot.angle",
+                    "color_path": "tool_settings.image_paint.brush.cursor_color_add",
+                    "fill_color_path": "tool_settings.image_paint.brush.color",
+                    "fill_color_override_path": "tool_settings.unified_paint_settings.color",
+                    "fill_color_override_test_path": "tool_settings.unified_paint_settings.use_unified_color",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.image_paint.brush",
+                    "secondary_tex": 1
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.image_paint.brush.texture_slot.angle",
+                    "data_path_secondary": "",
+                    "use_secondary": "",
+                    "rotation_path": "tool_settings.image_paint.brush.texture_slot.angle",
+                    "color_path": "tool_settings.image_paint.brush.cursor_color_add",
+                    "fill_color_path": "tool_settings.image_paint.brush.color",
+                    "fill_color_override_path": "tool_settings.unified_paint_settings.color",
+                    "fill_color_override_test_path": "tool_settings.unified_paint_settings.use_unified_color",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.image_paint.brush",
+                    "secondary_tex": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.image_paint.brush.mask_texture_slot.angle",
+                    "data_path_secondary": "",
+                    "use_secondary": "",
+                    "rotation_path": "tool_settings.image_paint.brush.mask_texture_slot.angle",
+                    "color_path": "tool_settings.image_paint.brush.cursor_color_add",
+                    "fill_color_path": "tool_settings.image_paint.brush.color",
+                    "fill_color_override_path": "tool_settings.unified_paint_settings.color",
+                    "fill_color_override_test_path": "tool_settings.unified_paint_settings.use_unified_color",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.image_paint.brush",
+                    "secondary_tex": 1
+                }
+            }
+        ],
+        "wm.context_toggle": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "ONE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "image_paint_object.data.use_paint_mask"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "S",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.image_paint.brush.use_smooth_stroke"
+                }
+            }
+        ],
+        "wm.context_menu_enum": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "E",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.image_paint.brush.stroke_method"
+                }
+            }
+        ],
+        "wm.call_panel": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_PT_paint_texture_context_menu"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "APP",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_PT_paint_texture_context_menu"
+                }
+            }
+        ]
+    }
+}

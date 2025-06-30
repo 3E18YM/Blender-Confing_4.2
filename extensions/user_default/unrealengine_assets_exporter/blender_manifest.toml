@@ -1,0 +1,25 @@
+schema_version = "1.0.0"
+id = "unrealengine_assets_exporter"
+version = "4.3.9"
+name = "Unreal Engine Assets Exporter"
+maintainer = "Loux Xavier (BleuRaven) xavierloux.loux@gmail.com"
+tagline = "Allows to batch export and import in Unreal Engine"
+website = "https://github.com/xavier150/Blender-For-UnrealEngine-Addons/"
+type = "add-on"
+tags = [
+  "Import-Export",
+]
+blender_version_min = "4.2.0"
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2024 Xavier Loux",
+  "2013 Blender Foundation",
+  "2006-2012 assimp team",
+  "2013 Campbell Barton",
+  "2014 Bastien Montagne",
+]
+[permissions]
+files = "Import/export FBX from/to disk"
+clipboard = "Copy generated script paths"

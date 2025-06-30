@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+id = "auto_rig_pro_quick_rig"
+version = "1.26.46"
+name = "Auto-Rig Pro: Quick Rig"
+tagline = "Generate quickly an Auto-Rig Pro armature from an existing skeleton (Auto-Rig Pro must be installed)"
+maintainer = "Artell <elartblender@gmail.com>"
+type = "add-on"
+website = "https://lucky3d.fr/auto-rig-pro/doc/quick_rig_doc.html"
+tags = ["Rigging", "Animation"]
+
+blender_version_min = "2.8.0"
+
+# No upper version breakage for now
+# blender_version_max = "5.1.0"
+
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+ copyright = [
+   "2016-2024 Lucas Veber",
+ ]

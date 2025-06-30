@@ -1,0 +1,134 @@
+{
+    "Sculpt": {
+        "object.subdivision_set": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "ZERO",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "level": 0,
+                    "relative": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "ONE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "level": 1,
+                    "relative": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "TWO",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "level": 2,
+                    "relative": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "THREE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "level": 3,
+                    "relative": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "FOUR",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "level": 4,
+                    "relative": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "FIVE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "level": 5,
+                    "relative": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "ONE",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "level": -1,
+                    "relative": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "TWO",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {
+                    "level": 1,
+                    "relative": 1
+                }
+            }
+        ],
+        "object.voxel_remesh": [
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "R",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ],
+        "object.voxel_size_edit": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "R",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+InOut,Socket Name,Socket Type
+INPUT,曲線,NodeSocketGeometry
+INPUT,Z-height,NodeSocketFloat
+INPUT,Amount,NodeSocketInt
+OUTPUT,網格,NodeSocketGeometry
+InOut,Socket Name,Socket Type
+INPUT,曲線,NodeSocketGeometry
+INPUT,Z-height,NodeSocketFloat
+INPUT,Amount,NodeSocketInt
+OUTPUT,網格,NodeSocketGeometry
+InOut,Socket Name,Socket Type
+INPUT,曲線,NodeSocketGeometry
+INPUT,Z-height,NodeSocketFloat
+INPUT,Amount,NodeSocketInt
+OUTPUT,網格,NodeSocketGeometry

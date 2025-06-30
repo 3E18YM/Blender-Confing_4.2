@@ -1,0 +1,16 @@
+{
+    "3D View": {
+        "object.quicksnap": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "V",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {}
+            }
+        ]
+    }
+}

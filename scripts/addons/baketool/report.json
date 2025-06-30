@@ -1,0 +1,20 @@
+{
+  "general": {
+    "jobsCount": 0,
+    "jobsCurrent": 0,
+    "processCurrent": "1"
+  },
+  "jobs": [
+    {
+      "name": "Job 1",
+      "status": "Finished",
+      "objCount": "1",
+      "objCurrent": "1",
+      "passCount": "1",
+      "passCurrent": "1",
+      "fileList": [
+        "C:\\Users\\user\\AppData\\Roaming\\Blender Foundation\\Blender\\3.6\\scripts\\addons/baketool/results/Job 1_Pass 1.png"
+      ]
+    }
+  ]
+}

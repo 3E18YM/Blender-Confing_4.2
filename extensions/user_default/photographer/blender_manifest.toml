@@ -1,0 +1,27 @@
+schema_version = "1.0.0"
+
+id = "photographer"
+version = "5.5.3"
+name = "Photographer"
+tagline = "Adds Physical Camera and Physical Light controls, LightMixer and Render Queue"
+maintainer = "Fabien -chafouin- Christin"
+type = "add-on"
+
+# File system access is required for texture libraries used by the add-on.
+# Network connection is required to check for available updates.
+permissions = ["files", "network"]
+
+# Optional link to documentation, support, source files, etc
+# website = "https://sites.google.com/view/photographer-5-documentation/"
+
+# Optional list defined by Blender and server, see:
+# https://docs.blender.org/manual/en/dev/extensions/tags.html
+tags = ["Camera", "Lighting", "Render", "Compositing"]
+
+blender_version_min = "3.0.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/extensions/licenses.html
+license = [
+  "SPDX:GPL-3.0-or-later",
+]

@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+id = "proxy_picker"
+version = "1.0.0"
+name = "Proxy Picker"
+tagline = "Enables the proxy picker feature for the rig"
+maintainer = "Artell <elartblender@gmail.com>"
+type = "add-on"
+website = "https://www.lucky3d.fr/auto-rig-pro/doc/"
+tags = ["Rigging", "Animation"]
+
+blender_version_min = "2.8.0"
+
+# No upper version breakage for now
+# blender_version_max = "5.1.0"
+
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+ copyright = [
+   "2016-2024 Lucas Veber", "Max Hammond",
+ ]

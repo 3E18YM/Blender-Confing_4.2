@@ -1,0 +1,43 @@
+schema_version = "1.0.0"
+
+id = "BAM"
+type = "add-on"
+version = "1.1.1"
+name = "[BAM] AutoMat"
+tagline = "Batch creation of materials from textures folder"
+maintainer = "AlexeyHRDesign <alexeyhrdesign@gmail.com>"
+website = "https://www.artstation.com/artwork/XgAnlR/"
+
+tags = ["Material", "Import-Export"]
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# Optional: required by some licenses.
+copyright = ["2022-2025 AlexeyHRDesign"]
+
+# Optional list of supported platforms. If omitted, the extension will be available in all operating systems.
+# platforms = ["windows-x64", "macos-arm64", "linux-x64"]
+# Other supported platforms: "windows-arm64", "macos-x64"
+
+# # Optional: add-ons can list which resources they will require:
+# # * files (for access of any filesystem operations)
+# # * network (for internet access)
+# # * clipboard (to read and/or write the system clipboard)
+# # * camera (to capture photos and videos)
+# # * microphone (to capture audio)
+# #
+# # If using network, remember to also check `bpy.app.online_access`
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/addons.html#internet-access
+# #
+# # For each permission it is important to also specify the reason why it is required.
+# # Keep this a single short sentence without a period (.) at the end.
+# # For longer explanations use the documentation or detail page.
+
+[permissions]
+# network = "Need to sync motion-capture data to server"
+files = "Import/export FBX from/to disk"
+# clipboard = "Copy and paste bone transforms"
+

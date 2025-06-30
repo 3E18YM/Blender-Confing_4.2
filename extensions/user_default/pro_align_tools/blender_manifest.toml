@@ -1,0 +1,11 @@
+schema_version = "1.0.0"
+id = "pro_align_tools"
+name = "Pro Align Tools"
+version = "2.1.10"
+tagline = "Align several objects at once"
+maintainer = "Rodrigo Vieyra (chaos)"
+type = "add-on"
+tags = ["Object"]
+blender_version_min = "4.2.0"
+website = "https://pro-align-tools-documentation.readthedocs.io/en/latest/"
+license = ["SPDX:GPL-3.0-or-later"]

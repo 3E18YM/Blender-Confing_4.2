@@ -1,0 +1,9 @@
+# 編輯中的暫存與備份
+autosave/
+cache/
+*.cache
+*.blend1
+*.blend2
+*.blend@
+# 大型縮圖
+thumbnails/

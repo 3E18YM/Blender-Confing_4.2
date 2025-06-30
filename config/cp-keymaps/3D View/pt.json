@@ -1,0 +1,16 @@
+{
+    "3D View": {
+        "pt.flow": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "D",
+                "value": "CLICK",
+                "repeat": false,
+                "properties": {}
+            }
+        ]
+    }
+}

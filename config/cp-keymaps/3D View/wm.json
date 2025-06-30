@@ -1,0 +1,18 @@
+{
+    "3D View": {
+        "wm.call_menu_pie": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "D",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_pie_pivot"
+                }
+            }
+        ]
+    }
+}

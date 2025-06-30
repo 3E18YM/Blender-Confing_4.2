@@ -1,0 +1,181 @@
+{
+    "Sculpt": {
+        "wm.call_menu_pie_drag_only": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "W",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "PIE_MT_sculpt_brush_select",
+                    "on_drag": 0,
+                    "fallback_operator": "",
+                    "fallback_op_kwargs": "{}"
+                }
+            }
+        ],
+        "wm.radial_control": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.sculpt.brush.size",
+                    "data_path_secondary": "tool_settings.unified_paint_settings.size",
+                    "use_secondary": "tool_settings.unified_paint_settings.use_unified_size",
+                    "rotation_path": "tool_settings.sculpt.brush.texture_slot.angle",
+                    "color_path": "tool_settings.sculpt.brush.cursor_color_add",
+                    "fill_color_path": "",
+                    "fill_color_override_path": "",
+                    "fill_color_override_test_path": "",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.sculpt.brush",
+                    "secondary_tex": 0
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.sculpt.brush.strength",
+                    "data_path_secondary": "tool_settings.unified_paint_settings.strength",
+                    "use_secondary": "tool_settings.unified_paint_settings.use_unified_strength",
+                    "rotation_path": "tool_settings.sculpt.brush.texture_slot.angle",
+                    "color_path": "tool_settings.sculpt.brush.cursor_color_add",
+                    "fill_color_path": "",
+                    "fill_color_override_path": "",
+                    "fill_color_override_test_path": "",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.sculpt.brush",
+                    "secondary_tex": 0
+                }
+            },
+            {
+                "ctrl_ui": true,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path_primary": "tool_settings.sculpt.brush.texture_slot.angle",
+                    "data_path_secondary": "",
+                    "use_secondary": "",
+                    "rotation_path": "tool_settings.sculpt.brush.texture_slot.angle",
+                    "color_path": "tool_settings.sculpt.brush.cursor_color_add",
+                    "fill_color_path": "",
+                    "fill_color_override_path": "",
+                    "fill_color_override_test_path": "",
+                    "zoom_path": "",
+                    "image_id": "tool_settings.sculpt.brush",
+                    "secondary_tex": 0
+                }
+            }
+        ],
+        "wm.context_menu_enum": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "E",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.sculpt.brush.stroke_method"
+                }
+            }
+        ],
+        "wm.context_toggle": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "S",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "data_path": "tool_settings.sculpt.brush.use_smooth_stroke"
+                }
+            }
+        ],
+        "wm.call_menu_pie": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_sculpt_mask_edit_pie"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "A",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_sculpt_automasking_pie"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "W",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_MT_sculpt_face_sets_edit_pie"
+                }
+            }
+        ],
+        "wm.call_panel": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_PT_sculpt_context_menu"
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "APP",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "name": "VIEW3D_PT_sculpt_context_menu"
+                }
+            }
+        ]
+    }
+}

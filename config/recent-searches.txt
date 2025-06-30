@@ -1,0 +1,76 @@
+ 0 BitBoy_LowPoly_Body_shader_AlbedoTransparency.png
+ 0 BitBoy_LowPoly_Body_shader_AlbedoTransparency_1
+ 0 BitBoy_LowPoly_Cloth_shader_AlbedoTransparency_1
+   BitBoy_LowPoly_Body_shader_AlbedoTransparency.png
+ 0 BitBoy_LowPoly_Head_shader_AlbedoTransparency_1
+ 0 file1
+ 0 file2
+ 0 BitBoy_LowPoly_Shoes_shader_AlbedoTransparency_1
+   Carrosserie_5
+   Carrosserie
+Shader ▸ Mix Shader
+Input ▸ Light Path
+Clamp ▸ Value
+Brightness/Contrast ▸ Bright
+算繪 ▸ FLIP 流體命令列渲染 ▸ 啟動動畫渲染
+   DSC03859.JPG
+   DSC03847.JPG
+Deform ▸ Lattice
+  Empty
+Generate ▸ Boolean
+ 0 Red_Metal
+   Red_Metal
+Image Texture ▸ Color
+Object ▸ Copy Paste ▸ Copy/Export
+   hexapod_platform_1001
+ 0 hexapod_platform_1007
+ 0 hexapod_platform_1004
+ 0 hexapod_platform_1005
+ 0 hexapod_platform_1006
+   hexapod_platform_1002
+   hexapod_platform_1003
+   hexapod_platform_1004
+   hexapod_platform_1005
+   hexapod_platform_1006
+   hexapod_platform_1007
+File ▸ Import ▸ FBX (.fbx)
+Add (Shift A) ▸ Armature ▸ Rigify Meta-Rigs ▸ Human
+Add (Shift A) ▸ Armature ▸ Rigify Meta-Rigs ▸ Basic ▸ Basic Human
+Top Bar: Edit ▸ Lock Object Modes
+Edit ▸ Preferences...|Ctrl ,
+   Belt_Diffuse
+   Belt_Normal
+   embed_hair_male_Transparency_Diffuse
+   embed_hair_male_Transparency_Specular
+   embed_hair_male_Transparency_Bump
+File ▸ Export ▸ glTF 2.0 (.glb/.gltf)
+UV (U) ▸ Clear Seam
+Edge (Ctrl E) ▸ Clear Seam
+Generate ▸ Subdivision Surface
+Edit ▸ Batch Rename...|Ctrl F2
+Generate ▸ Bevel
+Viewport (Alt V) ▸ Add Camera
+Add ▸ Camera
+Viewport (Alt V) ▸ Align View
+   csbc_word_blue.png
+  Armature
+  Icosphere
+File ▸ Import ▸ STEP (.step, .stp)
+Empty ▸ Image
+L  Black Nickel_old_Base Color.jpeg|[USV_ControllCase_V1.blend]
+L  Image_2|[USV_ControllCase_V1.blend]
+Object ▸ Transform ▸ Align Selected To Active
+  rig.001
+L  scratched_iron_12012024_basecolor.jpg|[USV_ControllCase_V1.blend]
+L  USV_ControllCase_Screen_1.png|[USV_ControllCase_V1.blend]
+L  Honda MFD 4.3 Digital Display (BF350).png|[USV_ControllCase_V1.blend]
+L  S__27500631.jpg|[USV_ControllCase_V1.blend]
+Deform ▸ Displace
+   Plastic
+  Modified Curve|[preset.blend]
+
+Generate ▸ Solidify
+Edit ▸ UV Project
+  Camera
+Generate ▸ Array
+Generate ▸ Mirror
