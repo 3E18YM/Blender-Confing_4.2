@@ -6,4 +6,5 @@ pro_align_tools
 quicksnap-main
 sketchfab-plugin-1-6-1
 Pivot_Transform
-MACHIN3tools
+MESHmachine
+CopyPasteAddonB3D

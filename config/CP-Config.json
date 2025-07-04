@@ -13,7 +13,7 @@
     "show_quick_reorder": true,
     "show_quick_focus_search_button": true,
     "easy_mode": false,
-    "main_tabs": "PRO",
+    "main_tabs": "Organize",
     "remove_uninstalled_addons": true,
     "use_filtering_in_node_editor": true,
     "use_filtering_in_image_editor": true,
@@ -24,7 +24,7 @@
     "show_panel_pies": false,
     "pop_out_style": "DropDown",
     "show_keymaps": false,
-    "active_tab": "Pie",
+    "active_tab": "Filtering",
     "active_tab_quick_settings": "Pie",
     "addon_loading_categories": [
         {
@@ -139,7 +139,7 @@
         {
             "name": "Hardflow",
             "display_name": "",
-            "addons": "HOps",
+            "addons": "hardops",
             "ordered": ""
         },
         {
@@ -215,64 +215,58 @@
             "ordered": ""
         },
         {
-            "name": "Unreal Engine",
-            "display_name": "",
-            "addons": "unrealengine_assets_exporter",
-            "ordered": "unrealengine_assets_exporter"
-        },
-        {
             "name": "BMC",
             "display_name": "",
-            "addons": "bmc_blender",
-            "ordered": "bmc_blender"
+            "addons": "",
+            "ordered": ""
         },
         {
             "name": "BY-GEN",
             "display_name": "",
             "addons": "BY-GEN-public",
-            "ordered": "BY-GEN-public"
-        },
-        {
-            "name": "FACEIT",
-            "display_name": "",
-            "addons": "faceit",
-            "ordered": "faceit"
+            "ordered": ""
         },
         {
             "name": "FLIP Fluids",
             "display_name": "",
             "addons": "flip_fluids_addon",
-            "ordered": "flip_fluids_addon"
+            "ordered": ""
         },
         {
             "name": "Fluent",
             "display_name": "",
             "addons": "fluent_power_trip",
-            "ordered": "fluent_power_trip"
+            "ordered": ""
         },
         {
             "name": "Photographer",
             "display_name": "",
             "addons": "photographer",
-            "ordered": "photographer"
+            "ordered": ""
         },
         {
             "name": "P.Plotter",
             "display_name": "",
             "addons": "perspective_plotter",
-            "ordered": "perspective_plotter"
+            "ordered": ""
         },
         {
             "name": "Quad Remesh",
             "display_name": "",
             "addons": "quad_remesher",
-            "ordered": "quad_remesher"
+            "ordered": ""
         },
         {
-            "name": "Stepper",
+            "name": "Hops",
             "display_name": "",
-            "addons": "STEPper",
-            "ordered": "STEPper"
+            "addons": "hardops",
+            "ordered": "hardops"
+        },
+        {
+            "name": "HardOps",
+            "display_name": "",
+            "addons": "hardops",
+            "ordered": "hardops"
         }
     ],
     "addon_info_for_renaming": [
@@ -291,14 +285,6 @@
             "identifier": "bl_ext.user_default.BoxCutter",
             "space": "VIEW_3D",
             "backup_tab_name": "Tool"
-        },
-        {
-            "name": "HOps",
-            "display_name": "Hard Ops 9",
-            "tab_name": "Hardflow",
-            "identifier": "HOps",
-            "space": "VIEW_3D",
-            "backup_tab_name": "Hops"
         },
         {
             "name": "MACHIN3tools",
@@ -469,14 +455,6 @@
             "backup_tab_name": "BakeTool"
         },
         {
-            "name": "unrealengine_assets_exporter",
-            "display_name": "Unreal Engine Assets Exporter",
-            "tab_name": "Unreal Engine",
-            "identifier": "bl_ext.user_default.unrealengine_assets_exporter",
-            "space": "VIEW_3D",
-            "backup_tab_name": "Unreal Engine"
-        },
-        {
             "name": "bmc_blender",
             "display_name": "BMC",
             "tab_name": "BMC",
@@ -491,14 +469,6 @@
             "identifier": "BY-GEN-public",
             "space": "VIEW_3D",
             "backup_tab_name": "BY-GEN"
-        },
-        {
-            "name": "faceit",
-            "display_name": "FACEIT",
-            "tab_name": "FACEIT",
-            "identifier": "faceit",
-            "space": "VIEW_3D",
-            "backup_tab_name": "FACEIT"
         },
         {
             "name": "flip_fluids_addon",
@@ -557,20 +527,44 @@
             "backup_tab_name": "Quad Remesh"
         },
         {
-            "name": "STEPper",
-            "display_name": "STEPper",
-            "tab_name": "Stepper",
-            "identifier": "STEPper",
-            "space": "VIEW_3D",
-            "backup_tab_name": "Stepper"
-        },
-        {
             "name": "PolyQuilt_Fork",
             "display_name": "PolyQuilt Retopology Tool",
             "tab_name": "Tool",
             "identifier": "bl_ext.blender_org.PolyQuilt_Fork",
             "space": "VIEW_3D",
             "backup_tab_name": "Tool"
+        },
+        {
+            "name": "hardops-Hardflow",
+            "display_name": "Hard Ops 9 (Hardflow)",
+            "tab_name": "Hardflow",
+            "identifier": "bl_ext.user_default.hardops",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Hardflow"
+        },
+        {
+            "name": "hardops-Hops",
+            "display_name": "Hard Ops 9 (Hops)",
+            "tab_name": "Hops",
+            "identifier": "bl_ext.user_default.hardops",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Hops"
+        },
+        {
+            "name": "hardops-HardOps",
+            "display_name": "Hard Ops 9 (HardOps)",
+            "tab_name": "HardOps",
+            "identifier": "bl_ext.user_default.hardops",
+            "space": "VIEW_3D",
+            "backup_tab_name": "HardOps"
+        },
+        {
+            "name": "Pivot_Transform",
+            "display_name": "Pivot Transform",
+            "tab_name": "Pivot Transform",
+            "identifier": "Pivot_Transform",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Pivot Transform"
         }
     ],
     "addon_info_index": 0,
@@ -616,7 +610,7 @@
             "name": "Photographer",
             "display_name": "",
             "addons": "photographer",
-            "ordered": "photographer"
+            "ordered": ""
         }
     ],
     "addon_info_for_renaming_image_editor": [
@@ -683,21 +677,15 @@
             "ordered": ""
         },
         {
-            "name": "Bradley",
-            "display_name": "",
-            "addons": "Bradley's Geo Node Presets",
-            "ordered": ""
-        },
-        {
             "name": "Photographer",
             "display_name": "",
             "addons": "photographer",
-            "ordered": "photographer"
+            "ordered": ""
         },
         {
             "name": "NodeShelf",
             "display_name": "",
-            "addons": "NodeShelf",
+            "addons": ",NodeShelf",
             "ordered": ""
         }
     ],
@@ -727,14 +715,6 @@
             "backup_tab_name": "Node Wrangler"
         },
         {
-            "name": "Bradley's Geo Node Presets",
-            "display_name": "Bradley's Geo Node Presets",
-            "tab_name": "Bradley",
-            "identifier": "Bradley's Geo Node Presets",
-            "space": "NODE_EDITOR",
-            "backup_tab_name": "Bradley"
-        },
-        {
             "name": "photographer",
             "display_name": "Photographer",
             "tab_name": "Photographer",
@@ -755,13 +735,13 @@
     "addon_info_for_renaming_node_editor_index": 0,
     "injected_code": false,
     "injected_code_tracking": false,
-    "delayed_loading_code_injected": true,
+    "delayed_loading_code_injected": false,
     "columm_layout_for_popup": true,
     "use_verticle_menu": true,
     "dropdown_width": 16,
     "show_dropdown_search": false,
     "categories": {
-        "filter_enabled": true,
+        "filter_enabled": false,
         "filter_enabled_node_editor": false,
         "filter_enabled_image_editor": false,
         "enabled_0": false,
@@ -933,8 +913,8 @@
     "favorites": [],
     "favorites_index": 0,
     "filter_internal_tabs": false,
-    "delayed_addons_loaded": true,
-    "atl_list": "3D Viewport Pie Menus,Align Tools,Auto Mirror,BlenderKit Online Asset Library,Pro Align Tools,QuickSnap,Sketchfab Plugin,Pivot Transform,MACHIN3tools",
+    "delayed_addons_loaded": false,
+    "atl_list": "3D Viewport Pie Menus,Align Tools,Auto Mirror,BlenderKit Online Asset Library,Pro Align Tools,QuickSnap,Sketchfab Plugin,Pivot Transform,MESHmachine,CopyPasteAddonB3D",
     "show_pro_options": false,
     "show_enabledisable_in_quick_settings": false,
     "show_fixes": true,

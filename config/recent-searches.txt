@@ -74,3 +74,5 @@ Edit ▸ UV Project
   Camera
 Generate ▸ Array
 Generate ▸ Mirror
+MESHmachine
+CopyPaste/ExportImport

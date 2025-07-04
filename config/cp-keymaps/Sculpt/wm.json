@@ -9,12 +9,7 @@
                 "type": "W",
                 "value": "PRESS",
                 "repeat": false,
-                "properties": {
-                    "name": "PIE_MT_sculpt_brush_select",
-                    "on_drag": 0,
-                    "fallback_operator": "",
-                    "fallback_op_kwargs": "{}"
-                }
+                "properties": {}
             }
         ],
         "wm.radial_control": [
